@@ -1,5 +1,6 @@
+*.txt
+
 database/
 
 connection.php
 *.sql
-*.txt
