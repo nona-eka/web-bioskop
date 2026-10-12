@@ -1,0 +1,12 @@
+PERBAIKAN PEMBAYARAN DAN F&B
+
+Import database/fix_payment_products.sql setelah database bioskop_db dipilih.
+
+SQL ini:
+- Membuat tabel payments jika belum ada.
+- Memindahkan riwayat pembayaran dari bookings lama ke payments jika belum memiliki record.
+- Tidak menghapus produk F&B yang sudah ada.
+- Jika tabel products benar-benar kosong, mengisi enam produk contoh.
+- Menyimpan pembayaran baru ke payments dan bookings.
+- Menyinkronkan perubahan status pembayaran dari halaman admin.
+- Membuat laporan admin membaca data pembayaran yang tersimpan.

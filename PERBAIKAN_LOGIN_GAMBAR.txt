@@ -1,0 +1,27 @@
+BIOSKOPIE - PERBAIKAN LOGIN DAN GAMBAR
+
+Kredensial admin:
+Email: admin@gmail.com
+Password: admin123
+
+Kredensial staf:
+Email: staf@gmail.com
+Password: staf123
+
+Perubahan:
+1. Login admin/staf menggunakan password yang jelas dan hash baru.
+2. Ditambahkan database/fix_login_images.sql untuk database yang sudah terlanjur diimpor.
+3. Poster film dan gambar F&B sekarang dapat memakai URL http/https atau nama file lokal di assets/images/.
+4. Admin dapat mengubah data film sekaligus poster.
+5. Admin dapat mengubah data produk sekaligus gambar.
+6. Dashboard admin sekarang menampilkan transaksi terbaru dan tautan laporan lengkap.
+7. Halaman admin/reports.php tetap menghitung pendapatan berdasarkan pesanan berstatus paid/lunas.
+
+Jika database bioskop_db sudah ada dan tidak ingin mengimpor ulang seluruh database:
+- Buka phpMyAdmin.
+- Pilih database bioskop_db.
+- Import database/fix_login_images.sql.
+- Login dengan kredensial di atas.
+
+Jika memakai database/bioskop_db.sql dari awal:
+- Import file tersebut dan kredensial di atas langsung aktif.

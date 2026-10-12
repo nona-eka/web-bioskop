@@ -1,0 +1,38 @@
+@media print {
+    body {
+        background: #fff !important;
+        color: #000 !important;
+    }
+
+    body::before,
+    .navbar,
+    .site-footer,
+    .no-print,
+    .skip-link {
+        display: none !important;
+    }
+
+    .main {
+        padding: 0;
+    }
+
+    .receipt {
+        max-width: none;
+        border: 2px solid #000;
+        border-radius: 12px;
+        background: #fff !important;
+        box-shadow: none;
+        -webkit-mask: none;
+        mask: none;
+    }
+
+    .receipt *,
+    .receipt .eyebrow {
+        color: #000 !important;
+    }
+
+    .status-badge {
+        border: 1px solid #000;
+        background: none !important;
+    }
+}
